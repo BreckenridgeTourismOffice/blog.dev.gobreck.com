@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Krakatau Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 23:35+0700\n"
+"PO-Revision-Date: 2012-06-15 23:35+0700\n"
+"Last-Translator: Hendro Prayitno\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#:404.php:8
+msgid "404 Error: Not found"
+msgstr ""
+
+#:404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for"
+msgstr ""
+
+#:archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#:archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#:archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#:archive.php:20
+msgid "Blog Archives"
+msgstr ""
+
+#:archive.php:29
+#:blogazine-1coloumn.php:23
+#:category.php:23
+#:index.php:21
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s by %3$s"
+msgstr ""
+
+#:archive.php:44
+#:category.php:38
+#:index.php:37
+msgid "No comments"
+msgstr ""
+
+#:archive.php:44
+#:category.php:38
+#:index.php:37
+msgid "One comment"
+msgstr ""
+
+#:archive.php:44
+#:category.php:38
+#:index.php:37
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#:archive.php:57
+#:blogazine-1coloumn.php:44
+#:category.php:51
+msgid "Category: "
+msgstr ""
+
+#:archive.php:58
+#:blogazine-1coloumn.php:45
+#:category.php:52
+msgid "Tags: "
+msgstr ""
+
+#:archive.php:68
+#:blogazine-1coloumn.php:68
+#:category.php:62
+#:index.php:54
+#:page.php:40
+msgid "No matches. Please try again, or use the navigation menus to find what you search for."
+msgstr ""
+
+#:blogazine-1coloumn.php:39
+msgid "Pages:"
+msgstr ""
+
+#:blogazine-1coloumn.php:48
+#:blogazine.php:47
+#:blogazine.php:59
+#:page.php:20
+msgid "&larr;"
+msgstr ""
+
+#:blogazine-1coloumn.php:51
+#:blogazine.php:50
+#:blogazine.php:62
+#:page.php:23
+msgid "&rarr;"
+msgstr ""
+
+#:category.php:14
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#:comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#:comments.php:12
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#:comments.php:18
+#:comments.php:30
+msgid "&larr; Older Comments"
+msgstr ""
+
+#:comments.php:19
+#:comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#:comments.php:29
+msgid "Comment navigation"
+msgstr ""
+
+#:comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#:footer.php:4
+msgid "http://amdhas.tk"
+msgstr ""
+
+#:footer.php:4
+msgid "http://wordpress.org"
+msgstr ""
+
+#:functions.php:18
+msgid "Navigation"
+msgstr ""
+
+#:search.php:13
+msgid "Search results for "
+msgstr ""
+
+#:tag.php:14
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#:blogazine/costum-css.php:47
+#:blogazine/costum-css.php:50
+msgid "Costum style blogazine"
+msgstr ""
+
+#:blogazine/costum-css.php:119
+msgid "You can enter an internal CSS code and javascript"
+msgstr ""
+
+#:blogazine/costum-css.php:121
+msgid "Insert &lt;style&gt; Tag"
+msgstr ""
+
+#:blogazine/costum-css.php:122
+msgid "Insert &lt;script&gt; Tag"
+msgstr ""
+
+#:blogazine/costum-template.php:57
+msgid "blogazine style"
+msgstr ""
+
+#:blogazine/costum-template.php:66
+msgid "Post Template"
+msgstr ""
+
+#:blogazine/costum-template.php:71
+msgid "Please select the style you want by clicking the dropdown menu above. There are two styles to blogazine if you do not select it, then it will be the default single post, still confused? Just visit my blog http://amdhas.tk"
+msgstr ""
+
+#:includes/krakatau-setings.php:22
+msgid "sidebar-rotator"
+msgstr ""
+
+#:includes/krakatau-setings.php:23
+msgid "sidebar for rotator and ads"
+msgstr ""
+
+#:includes/krakatau-setings.php:30
+msgid "sidebar-one-coloumn"
+msgstr ""
+
+#:includes/krakatau-setings.php:31
+msgid "sidebar one column1"
+msgstr ""
+
+#:includes/krakatau-setings.php:39
+msgid "coloumn-one"
+msgstr ""
+
+#:includes/krakatau-setings.php:40
+msgid "sidebar right column1"
+msgstr ""
+
+#:includes/krakatau-setings.php:47
+msgid "coloumn-two"
+msgstr ""
+
+#:includes/krakatau-setings.php:48
+msgid "sidebar right column2"
+msgstr ""
+
+#:includes/krakatau-setings.php:55
+msgid "footer left"
+msgstr ""
+
+#:includes/krakatau-setings.php:56
+msgid "footer left area"
+msgstr ""
+
+#:includes/krakatau-setings.php:63
+msgid "footer midlle"
+msgstr ""
+
+#:includes/krakatau-setings.php:64
+msgid "footer midle area"
+msgstr ""
+
+#:includes/krakatau-setings.php:71
+msgid "footer right"
+msgstr ""
+
+#:includes/krakatau-setings.php:72
+msgid "fotter right area"
+msgstr ""
+
+#:includes/krakatau-setings.php:88
+msgid "Read more &raquo;"
+msgstr ""
+
+#:includes/krakatau-setings.php:138
+msgid "Pingback:"
+msgstr ""
+
+#:includes/krakatau-setings.php:138
+#:includes/krakatau-setings.php:161
+msgid "Edit"
+msgstr ""
+
+#:includes/krakatau-setings.php:152
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#:includes/krakatau-setings.php:157
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#:includes/krakatau-setings.php:164
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#:includes/krakatau-setings.php:171
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#:includes/krakatau-setings.php:186
+#:includes/krakatau-setings.php:192
+#:includes/krakatau-setings.php:299
+msgid "Page"
+msgstr ""
+
+#:includes/widgets/widget-ads.php:4
+msgid "Show your image rotator or your Ads"
+msgstr ""
+
+#:includes/widgets/widget-ads.php:42
+msgid "<blockquote>This your area image rotator or your ads. You can put your image here for example thumbnail or your product, and also you can change every time you want. To activate this rotator</blockquote>Go to WP-Admin-> Appearance-> Theme Options to configure this widget"
+msgstr ""
+
+#:includes/widgets/widget-ads.php:59
+#:includes/widgets/widget-socialmedia.php:123
+msgid "Title"
+msgstr ""
+
+#:includes/widgets/widget-socialmedia.php:4
+msgid "Show your Social Media Buttons"
+msgstr ""
+
+#:includes/widgets/widget-socialmedia.php:103
+msgid "Go to WP-Admin-> Appearance-> Theme Options to configure this widget"
+msgstr ""
+
+#:options/theme-admin.php:3
+msgid "Theme Options"
+msgstr ""
+
+#:options/theme-admin.php:13
+msgid "Welcome to Krakatau WordPress Theme!"
+msgstr ""
+
+#:options/theme-admin.php:19
+msgid "Amdhas Chromatic on WordPress"
+msgstr ""
+
+#:options/theme-admin.php:23
+msgid "Here you are, i have several options for krakatau WordPress Theme. You can configure like sliding effect, SEO, meta tag for google, and much more. Would you like make your site different? oh, yes..you can change your layout every single post with css embed like magazine style [<a href=\"http://amdhas.tk/\">I call blogazine</a>]. Now lets do it several settings for your home page. Enjoy..."
+msgstr ""
+
+#:options/theme-admin.php:31
+msgid "Theme settings updated successfully."
+msgstr ""
+
+#:options/theme-admin.php:52
+msgid "More about Hendro Prayitno"
+msgstr ""
+
+#:options/theme-admin.php:57
+msgid "Visit amdhas.tk"
+msgstr ""
+
+#:options/theme-admin.php:58
+msgid "Browse all of my Themes"
+msgstr ""
+
+#:options/theme-admin.php:65
+msgid "Subscribe"
+msgstr ""
+
+#:options/theme-admin.php:68
+msgid "If you like my theme for more featured you can hire me or follow me."
+msgstr ""
+
+#:options/theme-admin.php:71
+msgid "RSS Feed"
+msgstr ""
+
+#:options/theme-admin.php:72
+msgid "Send Email"
+msgstr ""
+
+#:options/theme-admin.php:73
+msgid "Follow me on Twitter"
+msgstr ""
+
+#:options/theme-admin.php:74
+msgid "Become Amdhas friend"
+msgstr ""
+
+#:options/theme-admin.php:149
+msgid "Upload Image"
+msgstr ""
+
+#:options/theme-functions.php:4
+msgid "General"
+msgstr ""
+
+#:options/theme-functions.php:5
+msgid "Sliding effect"
+msgstr ""
+
+#:options/theme-functions.php:6
+msgid "Social buttons"
+msgstr ""
+
+#:options/theme-functions.php:7
+msgid "Widget ads"
+msgstr ""
+
+#:options/theme-functions.php:8
+msgid "SEO"
+msgstr ""
+
+#:options/theme-functions.php:101
+msgid "Use this Image"
+msgstr ""
+
+#:options/options/ads.php:6
+msgid "Image rotator or your ads here"
+msgstr ""
+
+#:options/options/ads.php:16
+msgid "Rotator check"
+msgstr ""
+
+#:options/options/ads.php:17
+msgid "Uncheck here if you want to remove rotator image or your ads, please make sure you activated widget ads rotator on <b>appearance -> widgets -> Krakatau ads and image rotator</b> and put the widget on sidebar-rotator"
+msgstr ""
+
+#:options/options/ads.php:24
+msgid "Rotate image or your ads?"
+msgstr ""
+
+#:options/options/ads.php:25
+msgid "Check this to randomly rotate the image."
+msgstr ""
+
+#:options/options/ads.php:31
+#:options/options/ads.php:45
+#:options/options/ads.php:59
+#:options/options/ads.php:73
+#:options/options/ads.php:87
+#:options/options/ads.php:101
+#:options/options/ads.php:115
+#:options/options/ads.php:129
+#:options/options/ads.php:143
+msgid " Image URL"
+msgstr ""
+
+#:options/options/ads.php:32
+#:options/options/ads.php:46
+#:options/options/ads.php:60
+#:options/options/ads.php:74
+#:options/options/ads.php:88
+#:options/options/ads.php:102
+#:options/options/ads.php:116
+#:options/options/ads.php:130
+#:options/options/ads.php:144
+msgid "Enter the image URL."
+msgstr ""
+
+#:options/options/ads.php:38
+#:options/options/ads.php:52
+#:options/options/ads.php:66
+#:options/options/ads.php:80
+#:options/options/ads.php:94
+#:options/options/ads.php:108
+#:options/options/ads.php:122
+#:options/options/ads.php:136
+#:options/options/ads.php:150
+msgid "Link for your image"
+msgstr ""
+
+#:options/options/ads.php:39
+#:options/options/ads.php:53
+#:options/options/ads.php:67
+#:options/options/ads.php:81
+#:options/options/ads.php:95
+#:options/options/ads.php:109
+#:options/options/ads.php:123
+#:options/options/ads.php:137
+#:options/options/ads.php:151
+msgid "Enter the URL where this ads or image points to."
+msgstr ""
+
+#:options/options/general.php:6
+msgid "Layout Settings"
+msgstr ""
+
+#:options/options/general.php:16
+msgid "This option for your logo on the top, if you want to remove krakatau default header go to <b>appearance -> header</b> and remove default header image"
+msgstr ""
+
+#:options/options/general.php:17
+msgid "</br>Upload Image for your site logo or you can just paste your image URL"
+msgstr ""
+
+#:options/options/general.php:23
+msgid "Search Form"
+msgstr ""
+
+#:options/options/general.php:24
+msgid "uncheck here if you like to remove search form"
+msgstr ""
+
+#:options/options/general.php:30
+msgid "Intro check"
+msgstr ""
+
+#:options/options/general.php:31
+msgid "uncheck here if you like to remove intro from home page"
+msgstr ""
+
+#:options/options/general.php:37
+msgid "Author Profile"
+msgstr ""
+
+#:options/options/general.php:38
+msgid "uncheck here if you like to remove Your profile description every page"
+msgstr ""
+
+#:options/options/general.php:44
+msgid "Put your site description, welcome message or everything that describe your site"
+msgstr ""
+
+#:options/options/general.php:45
+msgid "Type your text for message, description you can add html markup like &lt;blockquote&gt;, &lt;q&gt;, &lt;img src=\"\" alt=\"\"/&gt;, &lt;a href=\"\"&gt;&lt;/a&gt;"
+msgstr ""
+
+#:options/options/seo.php:6
+msgid "Setting seo meta"
+msgstr ""
+
+#:options/options/seo.php:17
+msgid "Google Verification code"
+msgstr ""
+
+#:options/options/seo.php:18
+msgid "Enter your google verifications code here."
+msgstr ""
+
+#:options/options/seo.php:24
+msgid "Bing Verification code"
+msgstr ""
+
+#:options/options/seo.php:25
+msgid "Enter your Bing verifications code here."
+msgstr ""
+
+#:options/options/seo.php:31
+msgid "Google plus ID"
+msgstr ""
+
+#:options/options/seo.php:32
+msgid "Enter your gogle+ profile code here."
+msgstr ""
+
+#:options/options/sliding-efect.php:6
+msgid "Featured Posts Slider"
+msgstr ""
+
+#:options/options/sliding-efect.php:15
+msgid "Show Post Slider?"
+msgstr ""
+
+#:options/options/sliding-efect.php:16
+msgid "Check this if you want to show the Featured Post Slider."
+msgstr ""
+
+#:options/options/sliding-efect.php:23
+msgid "Enter here your title for your featured post, for example featured post or recent post."
+msgstr ""
+
+#:options/options/sliding-efect.php:29
+msgid "Slider Effect"
+msgstr ""
+
+#:options/options/sliding-efect.php:35
+msgid "Horizontal Slider"
+msgstr ""
+
+#:options/options/sliding-efect.php:36
+msgid "vertical Slider"
+msgstr ""
+
+#:options/options/sliding-efect.php:37
+msgid "Fade Slider"
+msgstr ""
+
+#:options/options/sliding-efect.php:38
+msgid "slideY"
+msgstr ""
+
+#:options/options/sliding-efect.php:39
+msgid "blindX"
+msgstr ""
+
+#:options/options/sliding-efect.php:40
+msgid "blindY"
+msgstr ""
+
+#:options/options/sliding-efect.php:41
+msgid "blindZ"
+msgstr ""
+
+#:options/options/sliding-efect.php:42
+msgid "growing"
+msgstr ""
+
+#:options/options/sliding-efect.php:43
+msgid "curtain"
+msgstr ""
+
+#:options/options/sliding-efect.php:44
+msgid "cover"
+msgstr ""
+
+#:options/options/sliding-efect.php:45
+msgid "Zoom Slider"
+msgstr ""
+
+#:options/options/sliding-efect.php:49
+msgid "Slider Content"
+msgstr ""
+
+#:options/options/sliding-efect.php:55
+msgid "Show latest posts"
+msgstr ""
+
+#:options/options/sliding-efect.php:56
+msgid "Show latest posts from category \"featured\""
+msgstr ""
+
+#:options/options/sliding-efect.php:57
+msgid "Show latest posts with post_meta_key \"featured\""
+msgstr ""
+
+#:options/options/sliding-efect.php:58
+msgid "Show latest posts from custom category(enter ID below)"
+msgstr ""
+
+#:options/options/sliding-efect.php:62
+msgid "category ID"
+msgstr ""
+
+#:options/options/sliding-efect.php:63
+msgid "Please enter the category ID you'd like to include in the slideshow.(You have to tick the last option above)"
+msgstr ""
+
+#:options/options/sliding-efect.php:69
+msgid "Number of Posts"
+msgstr ""
+
+#:options/options/sliding-efect.php:70
+msgid "Enter the number how much posts should be displayed in the post slider."
+msgstr ""
+
+#:options/options/social.php:6
+msgid "Social Media Buttons"
+msgstr ""
+
+#:options/options/social.php:15
+msgid "Show SocialMedia Buttons in Header?"
+msgstr ""
+
+#:options/options/social.php:16
+msgid "Check this to activate the SocialMedia Buttons in Header."
+msgstr ""
+
+#:options/options/social.php:23
+msgid "Enter the URL to your Twitter Profile here."
+msgstr ""
+
+#:options/options/social.php:30
+msgid "Enter the URL to your Facebook Profile here."
+msgstr ""
+
+#:options/options/social.php:37
+msgid "Enter the URL to your Google+ profile."
+msgstr ""
+
+#:options/options/social.php:44
+msgid "Enter the URL to your LinkedIn Profile here."
+msgstr ""
+
+#:options/options/social.php:51
+msgid "Enter the URL to your MySpace Profile here."
+msgstr ""
+
+#:options/options/social.php:58
+msgid "Enter the URL to your Blogger Profile here."
+msgstr ""
+
+#:options/options/social.php:65
+msgid "Enter the URL to your Wordpress.com Blog here."
+msgstr ""
+
+#:options/options/social.php:72
+msgid "Enter the URL to your Flickr Profile here."
+msgstr ""
+
+#:options/options/social.php:79
+msgid "Enter the URL to your Last.fm Profile here."
+msgstr ""
+
+#:options/options/social.php:86
+msgid "Enter the URL to your Delicious Profile here."
+msgstr ""
+
+#:options/options/social.php:93
+msgid "Enter the URL to your Digg Profile here."
+msgstr ""
+
+#:options/options/social.php:100
+msgid "Enter the URL to your Reddit Profile here."
+msgstr ""
+
+#:options/options/social.php:107
+msgid "Enter the URL to your StumpleUpon Profile here."
+msgstr ""
+
+#:options/options/social.php:114
+msgid "Enter your RSS URL (e.g. Feedburner Feed) here."
+msgstr ""
+
+#:options/options/social.php:121
+msgid "Enter the URL to your Friendfeed Profile here."
+msgstr ""
+
+#:options/options/social.php:128
+msgid "Enter your Skype Contact here."
+msgstr ""
+

@@ -1,0 +1,13 @@
+.one-coloumn-blogazine {
+       width:60%;
+       margin:0 auto;
+       background:white;
+       padding-left:15px;
+       padding-right:15px;
+}
+.one-coloumn-blogazine  .one-title{
+       font-size:3.5em;
+       line-height:1;
+       word-wrap:break-word;
+       padding-top:20px;
+}

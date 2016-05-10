@@ -1,0 +1,1472 @@
+/*
+Theme Name: Krakatau
+Description: Krakatau theme is simple,  minimalist,  readable,  responsive layout and valid HTML5. Krakatau supports seven widgetized areas,  custom menu,  header image and background. The theme settings include options for featured post slider effect,  SEO optimized,  Image rotator,  ads rotator,  setup social network icons,  welcome message on home page,  blogazine style for unique post,  google meta verification code,  bing verification code,  add google plus code and much more. Krakatau is user friendly wordpress theme to keep your site elegant. 
+Theme URI:
+Author: Hendro Prayitno
+Author URI: http://amdhas.tk
+Version: 0.1.2
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, gray, two-columns, right-sidebar, flexible-width, threaded-comments, custom-menu, custom-background, custom-header, theme-options
+*/
+
+/* ========================================================
+  Reset CSS from eric meyers:
+  http://meyerweb.com/eric/tools/css/reset/index.html
+============================================================ */
+html,  body,  div,  span,  applet,  object,  iframe, 
+h1,  h2,  h3,  h4,  h5,  h6,  p,  blockquote,  pre, 
+a,  abbr,  acronym,  address,  big,  cite,  code, 
+del,  dfn,  em,  font,  ins,  kbd,  q,  s,  samp, 
+small,  strike,  strong,  sub,  sup,  tt,  var, 
+dl,  dt,  dd,  ol,  ul,  li,  fieldset,  form,  
+label,  legend,  table,  caption,  tbody,  
+tfoot,  thead,  tr,  th,  td 
+ {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+}
+
+/* ========================================================
+ Global settings
+============================================================ */
+body  {
+	width:100%;
+	max-width:1030px;
+        background:url(images/bg.jpg);
+        word-wrap:break-word;
+        margin:0 auto;
+        font-family: 'Unna';		 
+        border: 0;
+        color: #111;
+}
+body:before, body:after {
+	 content:"";
+	 display:table;
+}
+body:after {
+	 clear:both;
+}
+img, 
+object, 
+embed {
+	max-width:100%;
+}
+img {
+	height:auto;
+}
+ol, ul {
+	list-style:none;
+}
+table th  {
+	color: #222;
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	padding:10px;
+}
+table td {
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	padding:10px;
+}
+table  {
+	border-collapse: separate;
+	border-spacing: 0;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+article,  
+aside,  
+details,  
+figcaption,  
+figure, 
+footer,  
+header,  
+hgroup,  
+menu,  
+nav,  
+section  {
+	display: block;
+}
+a {
+	color:#222;
+	text-decoration:none;
+}
+a:visited {
+	color:#777;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color:#41b7d8;
+}
+.alignleft  {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+}
+.alignright  {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+}
+.aligncenter  {
+	clear: both;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:0;
+}
+ol, ul {
+	margin-bottom:7px;
+}
+dl  {
+	margin: 0 1.625em;
+}
+dt  {
+	font-weight: bold;
+}
+dd  {
+	margin-bottom: 1.625em;
+}
+strong  {
+	font-weight: bold;
+}
+cite,  
+em,  
+i  {
+	font-style: italic;
+}
+blockquote  {
+	font-family: Georgia,  "Bitstream Charter",  serif;
+	font-style: italic;
+font-weight: normal;
+	margin: 2em 2.2em;
+	line-height:1.4em;
+}
+blockquote em,  
+blockquote i,  
+blockquote cite  {
+	font-style: normal;
+}
+blockquote cite  {
+color: #666;
+	font: 12px "Helvetica Neue",  Helvetica,  Arial,  sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+pre  {
+	background:#ffffe0;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+font: 13px "Courier 10 Pitch",  Courier,  monospace;
+	line-height: 1.5;
+	margin-bottom: 1.625em;
+	overflow: auto;
+	padding: 0.75em 1.625em;
+	border-left:5px solid #298cba;
+}
+code,  
+kbd  {
+	font: 13px Monaco,  Consolas,  "Andale Mono",  "DejaVu Sans Mono",  monospace;
+}
+abbr,  
+acronym,  
+dfn  {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address  {
+	display: block;
+	margin: 0 0 1.625em;
+}
+ins  {
+	background: #fff9c0;
+	text-decoration: none;
+}
+sup, 
+sub  {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup  {
+	bottom: 1ex;
+}
+sub  {
+	top: .5ex;
+}
+caption,  
+th,  
+td  {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, 
+q:before {
+	content:'"';
+	font-size:4em;
+	float:left;
+	text-align:right;
+}
+blockquote,  q  {
+	quotes: "" "";
+}
+a img  {
+	border: 0;
+}
+p {
+	margin-bottom:15px;
+}
+/* ==============================================================
+ Simple grid responsive css 12 coloumn by Hendro Prayitno = me
+================================================================= */
+.row  {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.one {
+	width:6.25%;
+}
+.two {
+	width:14.583333333333334%;
+}
+.thre {
+	width:22.916666666666664%;
+}
+.four {
+	width:31.25%;
+}
+.five {
+	width:39.58333333333333%;
+}
+.six {
+	width:47.91666666666667%;
+}
+.seven {
+	width:56.25%;
+}
+.eight {
+	width:64.58333333333334%;
+}
+.nine {
+	width:72.91666666666666%;
+}
+.ten {
+	width:81.25%;
+}
+.eleven {
+	width:89.58333333333334%;
+}
+.tweleve {
+	width:97.91666666666666%;
+}
+.one,  
+.two,  
+.thre,  
+.four,  
+.five,  
+.six,  
+.seven,  
+.eight,  
+.nine,  
+.ten,  
+.eleven,  
+.twelve
+ {
+	display:inline;
+	 float:left;
+	 margin:0 1.0416666666666665%;
+}
+
+/* ========================================================
+  This only for expert blogger who loves make blogazine, 
+  i put class for body.
+============================================================ */
+.blogazine {
+	font-family:serif;
+}
+.blogazine #comments {
+	width:60%;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+.blogazine #authorarea {
+	margin-bottom:0;
+}
+.ohnav {
+	background: #700;
+}
+.ohnav a {
+	color: #fff;
+}
+.ohnav a:hover {
+	color: #eee;
+}
+.comment-blogazine {
+	background:url(images/bg.jpg);
+}
+
+/* ========================================================
+  Unna like a cursive or what? 
+============================================================ */
+@font-face  {
+    font-family: 'Unna';
+    src: url('font/Unna.eot');
+    src: url('font/Unna.eot?#iefix') format('embedded-opentype'), 
+         url('font/Unna.woff') format('woff'), 
+         url('font/Unna.ttf') format('truetype'), 
+         url('font/Unna.svg#UnnaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ========================================================
+ Input and textarea settings
+============================================================ */
+input,  
+textarea  {
+	background-color: #f5f5f5;
+	margin: 5px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+
+/* ========================================================
+ Header and site title settings
+============================================================ */
+#header  {
+	padding:15 0 0 0;
+}
+.heading-menu {
+	box-shadow:1px 1px 12px #999;
+	margin-bottom:20px;
+}
+.site-title {
+	font-size:3.4em;
+	margin:0;
+	padding-left:15px;
+}
+.site-description {
+	padding-left:15px;
+	margin:0;
+}
+.excerpt  {
+	background: #fff;
+	width:52%;
+        padding-bottom:20px;
+}
+.side-right  {
+	width:48%;
+}
+.excerpt,  
+.side-right {
+	display:inline;
+	 float:left;
+}
+.read-more {
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	margin-top:5px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-bottom-color:#aaa;
+	border-radius:6px;
+}
+.read-more, 
+.heading-menu
+ {
+    background-color:#eaeaea;
+    background-image:-webkit-gradient(linear,  left top,  left bottom,  from(#ffffff),  to(#eaeaea));	 
+    background-image:-webkit-linear-gradient(top,  #ffffff,  #eaeaea);	 
+    background-image:-moz-linear-gradient(top,  #ffffff,  #eaeaea);	 
+    background-image:-ms-linear-gradient(top,  #ffffff,  #eaeaea);	 
+    background-image:-o-linear-gradient(top,  #ffffff,  #eaeaea);	 
+    background-image:linear-gradient(top,  #ffffff,  #eaeaea);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#eaeaea);
+}
+
+.intro,  #content-slider  {
+	background:#e5e5e5;
+}
+
+/* ========================================================
+ Sidebar settings
+============================================================ */
+.intro {
+	padding:10px;
+}
+.line {
+	margin-bottom:10px;
+}
+.line li {
+	padding-left:10px;
+}
+.line h3 {
+	padding-left:10px;
+}
+.line1 {
+	margin-bottom:15px;
+	padding:0 20px 8px 20px;
+}
+.line1 h3 {
+	color:#222;
+	font-size:1.5em;
+	line-height:1;
+	padding-bottom:8px;
+	padding-top:5px;
+}
+.searching {
+	width:88.58333333333334%;
+	margin-bottom:30px;
+	padding:15px;
+	border-radius:0 10px 10px 0;
+	background: #123;
+}
+.half-coloumn {
+	background:#fff;
+	width:83.58333333333334%;
+	padding:18px;
+	margin-top:20px;
+	border-radius:0 10px 10px 0;
+}
+.coloumn-one {
+	background:#f9f9f9;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+.coloumn-one h3,  
+.coloumn-two h3 {
+	color:#f9f9f9;
+	font-size:1.5em;
+	background:#123;
+	padding:5px;
+	margin-bottom:8px;
+        
+}
+.coloumn-one ul li, .coloumn-two ul li {
+	margin-left:10px;
+}
+.coloumn-two {
+	background:#f8f8f8;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+.below {
+	background-color:#f1f1f1;
+        background-image: -moz-linear-gradient(#f9f9f9,  #e5e5e5);
+        background-image: -o-linear-gradient(#f9f9f9,  #e5e5e5);
+        background-image: -webkit-gradient(linear,  0% 0%,  0% 100%,  from(#f9f9f9),  to(#e5e5e5));
+        background-image: -webkit-linear-gradient(#f9f9f9,  #e5e5e5);
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.below h3 {
+	font-size:1.5em;
+}
+.below li {
+	list-style:circle inside;
+}
+.side-right h3 {
+	font-size:1.5em;
+}
+.side-right li {
+	list-style:circle inside;
+	padding-top:2px;
+}
+.side-right a {
+	font-size: 1.0em;
+	text-decoration: none;
+}
+.side-right a:link,  
+.sidebar a:visited   {
+	color: #333;
+}
+.side-right a:hover,  
+.sidebar a:active  {
+	text-decoration:underline;
+}
+.side-right ul ul li  {
+	margin: 0;
+	padding: 5px 0;
+	border: 0;
+}
+#searchform div  {
+	padding: 0 !important;
+}
+.centering {
+	text-align:center;
+}
+.screen-reader-text  {
+	display: none;
+}
+#s  {
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 6px 5px;
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #333;
+}
+#searchsubmit  {
+	margin-left: 5px;
+        border: none;
+        padding: 5px 10px;
+        color: #333;
+        font-size: 1.0em;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        background: #eee;
+}
+#searchsubmit:hover  {
+	background: #ddd;
+}
+
+/* ========================================================
+ Social media buttons and Logo
+============================================================ */
+#socialmedia_buttons img {
+	margin: 3px;
+}
+#ads img {
+	margin:3px;
+	width:125px;
+	height:125px;
+}
+#head  {
+	width:;
+	margin: 0 auto;
+}
+#logo  {
+	float: left;
+	padding: 0 5px 0 15px;
+}
+#logo img  {
+	border: 0;
+	padding: 5px 0;
+}
+#logo h1  {
+	margin: 5px;
+	font-size:3.5em;
+}
+#socialmedia_icons  {
+	float: right;
+	margin: 45px 30px 25px 0;
+}
+#socialmedia_icons img  {
+	float: left;
+	margin-right: 8px;
+	width:32px;
+	height: 32px;
+}
+#socialmedia_icons img:hover {
+	opacity:.5;
+}
+
+/* ========================================================
+ Uh....navigations are you sure your visitors click the menu?
+ Yeah,  depend on your settings and the website usability.
+============================================================ */
+#navi {
+	float:right;
+	width:;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#navmenu,  #navmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: outside;
+	position: relative;
+}
+#navmenu li {
+	float:right;
+	 border-left:1px solid #e1e1e1;
+	position:relative;
+}
+#navmenu a {
+	text-transform:uppercase;
+	display: block;
+	padding: 40px 20px 40px 20px;
+	font-size: 1em;
+	font-weight: bold;
+}
+#navmenu a:link,  #navmenu a:visited {
+	text-decoration: none;
+}
+#navmenu a:hover {
+	text-decoration:none;
+}
+#navmenu ul  {
+	position: absolute;
+	display: none;
+	z-index: 999;
+	right:0;
+	border-top: none;
+}
+#navmenu ul a  {
+	width:170px;
+	padding: 10px 15px;
+	float: right;
+	border-bottom: 1px solid #bbb;
+	color: #333;
+	font-size: .65em;
+	background: #fff;
+}
+#navmenu ul a:hover  {
+	background: #e8e8e8;
+}
+#navmenu ul ul {
+	top: 0;
+	margin-top: -1px;
+}
+#navmenu li ul ul  {
+	right:100%;
+}
+#navmenu li:hover ul ul,  
+#navmenu li:hover ul ul ul,  
+#navmenu li:hover ul ul ul ul {
+	display:none;
+}
+#navmenu li:hover ul,  
+#navmenu li li:hover ul,  
+#navmenu li li li:hover ul,  
+#navmenu li li li li:hover ul {
+	display:block;
+}
+#navmenu li.current_page_item a,  
+#navmenui li.current-menu-item a {
+	background: #f00;
+	color: #fff;
+}
+
+/* ====================================================================
+ Widget calendar
+======================================================================== */
+#wp-calendar  {
+	width: 100%;
+}
+#wp-calendar caption  {
+	color: #555;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 0 5px 5px;
+	text-align: left;
+}
+#wp-calendar th {
+	color: #333;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#wp-calendar td {
+	text-align: center;
+}
+
+/* ========================================================
+ Post,  article,  breadcrumb and your entry post format.
+============================================================ */
+.post  {
+	font-size:100%;
+	padding:0;
+	margin:0;
+}
+.sticky  {
+}
+.breadcrumb {
+	background:#298cba;
+	color:#fff;
+	padding:10px;
+}
+.breadcrumb a {
+	color:#fff;
+}
+.breadcrumb a:hover {
+	color:#eee;
+}
+.title-excerpt   {
+	word-wrap:break-word;
+	padding: 0 0 5px 15px;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+.entry  {
+	line-height: 1.5em;
+	margin:0;
+	padding:0 15px;
+}
+.entry h1,  
+.comment h1   {
+	font-size: 1.8em;
+	margin:0;
+}
+.entry h2,  
+.comment h2  {
+	font-size:2em;
+	margin: 0;
+	line-height:1.2em;
+	border: none !important;
+	background: none;
+}
+.entry h3,  
+.comment h3 {
+	font-size: 1.4em;
+	margin: 10px 0;
+}
+.entry h4,  
+.comment h4 {
+	font-size: 1.3em;
+	margin: 15px 0 0 0;
+}
+.entry h5,  
+.comment h5 {
+	font-size: 1.2em;
+	margin: 10px 0 0 0;
+	font-weight: bold;
+}
+.entry h6,  
+.comment h6 {
+	font-size: 1.0em;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+.entry p  {
+	margin: 5px 0 15px 0;
+}
+.arh  {
+	color: #222;
+	margin: 0 0 20px 0;
+	font-size: 1.4em;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #efefef;
+}
+.postmeta {
+	font-size:.80em;
+	padding:5px 15px;
+}
+.postcomments  {
+	font-size:13px;
+	float: right;
+	background:#41b7d1;
+	color: #fff;
+	padding: 5px 10px;
+}
+.postcomments a:link,  
+.postcomments a:visited  {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+.postcomments a:hover,  
+.postcomments a:active  {
+	color: #eee;
+	text-decoration: underline;
+}
+.postinfo  {
+	padding: 10px 15px;
+	color: #333;
+	background:#fff;
+	border-bottom: 1px solid #ccc;
+}
+.postinfo a:link,  
+.postinfo a:visited  {
+	color: #333;
+	text-decoration:none;
+}
+.postinfo a:hover,  
+.postinfo a:active  {
+	color:#444;
+	text-decoration: none;
+}
+.post-info-single {
+	font-size:1em;
+	margin:0;
+	padding:0 0 2px 0;
+}
+.entry h2.title-single {
+	background:;
+	padding-top:20px;
+	font-size:2.4em;
+	line-height:1;
+}
+
+/* =================================================
+ Author setting
+================================================= */
+#authorarea {
+	background:#f6f6f6;
+	padding: 10px;
+	overflow:hidden;
+	color: #333;
+	margin-bottom:15px;
+}
+#authorarea h3 {
+	font-size: 18px;
+	color:#333;
+	margin:0;
+	padding:5px 10px 5px 15px;
+}
+#authorarea h3 a {
+	text-decoration:none;
+	color: #333;
+	font-weight: bold;
+}
+#authorarea img {
+	margin-top:12px;
+	padding:10px;
+	float:left;
+	border: 1px solid #ddd;
+	width: 100px;
+	height: 100px;
+	max-width:100%;
+}
+#authorarea p {
+	font-size:95%;
+	color:#333;
+	margin:0;
+	padding:0px 10px 10px 15px;
+	word-wrap:break-word;
+}
+#authorarea p a:link {
+	color:#f00;
+}
+#authorarea p a:hover {
+	color:#900;
+}
+.authorinfo {
+	padding-left:120px;
+}
+
+/* ========================================================
+ Entry list,  text and gallery
+============================================================ */
+.entry ul,  
+.comment ul {
+	list-style: square inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol,  
+.comment ol {
+	list-style: decimal inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol ol,  
+.comment ol ol {
+	list-style: upper-alpha inside;
+}
+.entry ol ol ol,  
+.comment ol ol ol {
+	list-style: lower-roman inside;
+}
+.entry ol ol ol ol,  
+.comment ol ol ol ol {
+	list-style: lower-alpha inside;
+}
+.entry ul ul,  
+.comment ul ul, 
+.entry ol ol,  
+.comment ol ol, 
+.entry ul ol,  
+.comment ul ol
+.entry ol ul,  
+.comment ol ul  {
+	margin-bottom: 5px;
+}
+.entry var,  
+.entry kbd,  
+.entry tt  {
+	font-size: 1.1em;
+	font-family: "Courier 10 Pitch",  Courier,  monospace;
+}
+.entry table  {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ddd;
+	margin: 20px 0;
+	text-align: left;
+	width: 100%;
+}
+.entry tr th, 
+.entry thead th  {
+	color: #555;
+	font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1.0em;
+	padding: 5px 15px;
+}
+.entry tr td  {
+	border-top: 1px solid #ddd;
+	padding: 5px 15px;
+}
+.entry tr.odd td  {
+	background: #eee;
+}
+.page-link  {
+	clear: both;
+	display: block;
+	margin: 0 0 1em;
+}
+.page-link a  {
+	font-size:1.2em;
+	background: #eee;
+	color: #222;
+	margin: 0;
+	padding: 2px 5px;
+	text-decoration: none;
+}
+.page-link a:hover  {
+	background: #888;
+	color: #fff;
+}
+.page-link span  {
+	margin-right: 6px;
+}
+
+
+.entry img  {
+	max-width: 100%;
+	height: auto;
+}
+.wp-caption   {
+	margin: 5px;
+	max-width: 100%;
+	padding: 6px 3px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.wp-caption-text  {
+	margin: 0 !important;
+	padding: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+.alignleft  {
+	float: left;
+	display: inline;
+	margin: 10px 15px 10px 5px;
+}
+.alignright {
+	float: right;
+	display: inline;
+	margin: 10px 5px 10px 15px;
+}
+.aligncenter  {
+	margin: 10px auto;
+	display: block;
+}
+.wp-post-image  {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.gallery  {
+	margin: 10px auto;
+}
+.gallery-item  {
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	width: 33%;
+}
+.gallery-caption  {
+	padding: 0 5px;
+}
+
+/* ========================================================
+ Slides your post with jquery
+============================================================ */
+#slider  {
+	margin: 0;
+}
+#content-slider  {
+	padding:15px;
+}
+#slideshow  {
+	padding: 0;
+	margin:  0;
+}
+#slideshow .post  {
+	margin: 0;
+	padding: 3px;
+	background: #fff;
+        box-shadow:6px 6px 6px #999;
+        
+}
+#slide_panel  {
+	height:34px;
+	padding: 15px;
+	background: #123;
+}
+#slide_head  {
+	float: left;
+	font-size: 1.4em;
+	color: #fff;
+}
+#slide_keys  {
+	float: right;
+	margin-top: 5px;
+}
+#slide_keys a:link,  
+#slide_keys a:visited  {
+	font-size: 1.2em;
+	font-family: arial,  verdana;
+	cursor: pointer;
+	margin-right: 5px;
+	padding: 5px;
+	font-weight: bold !important;
+	text-decoration: none;
+	color: #fff;
+}
+#slide_keys a:hover  {
+	color: #f00;
+	text-decoration:none;
+}
+
+/* =================================================
+ Comment settings
+================================================= */
+input[type="text"],  
+input[type="password"],  
+select  {
+	background:#f4f4f4;
+	border:1px solid #aaa;
+	margin:0;
+	outline:none;
+	padding:8px 10px;
+	vertical-align:middle;
+	width:70%;
+}
+textarea {
+	background:#f4f4f4;
+	height:auto;
+	overflow:auto;
+	margin:0;
+	outline:none;
+	padding:8px 10px;
+	width:90%;
+}
+input[type="submit"] {
+	cursor:pointer;
+	background:#ffffff;
+	color:#555;
+	display:inline-block;
+	margin:0;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	vertical-align:middle;
+}
+#comments-title  {
+	color: #600;
+	font-size: 1.1em;
+	font-weight: 500;
+	line-height: 2.6em;
+	padding:0 0 0 1em;
+	text-transform: uppercase;
+}
+.commentlist #respond  {
+	margin: 1.625em 0 0;
+	width: auto;
+}
+.nopassword, 
+.nocomments  {
+	color: #aaa;
+	font-size: 24px;
+	font-weight: 100;
+	margin: 26px 0;
+	text-align: center;
+}
+.commentlist  {
+	list-style: none;
+	margin: 0 auto;
+}
+.content .commentlist, 
+.page-template-sidebar-page-php .commentlist  {
+	width: 100%;
+}
+.commentlist > li.comment  {
+	background: #f6f6f6;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	margin:1.625em 0;
+	padding: 0.65em 0 0 0.65em;
+}
+.pingback,  .trackback   {
+	margin: 0 0 1.625em;
+	padding: 0 1.625em;
+}
+.commentlist .children  {
+	list-style: none;
+	margin: 0;
+}
+.commentlist .children li.comment  {
+	background: #fff;
+	border-left: 1px solid #ddd;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+	margin: 1.625em 0 0;
+	padding: 1.625em;
+	position: relative;
+}
+.commentlist .children li.comment .fn  {
+	display: block;
+}
+.comment-meta .fn  {
+	font-size:;
+}
+.comment-meta  {
+	color: #666;
+	font-size: 12px;
+	line-height:1.1em;
+}
+.commentlist .children li.comment .comment-meta  {
+	line-height: 1.625em;
+}
+.commentlist .children li.comment .comment-content  {
+	margin:0;
+}
+.comment-meta a  {
+	font-weight: bold;
+}
+.comment-meta a:focus, 
+.comment-meta a:active, 
+.comment-meta a:hover  {
+}
+.avatar  {
+	float:left;
+	height:70px;
+	width:70px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	box-shadow: 0 1px 2px #ccc;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+	margin-right:8px;
+}
+.commentlist > li:before  {
+}
+.commentlist > li.pingback:before  {
+	content: '';
+}
+.commentlist .children .avatar  {
+	top: 2em;
+}
+a.comment-reply-link  {
+	background:#298cba;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	box-shadow: 0 1px 2px #ccc;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #eee;
+	font-size:.90em;
+	padding:6px;
+	text-decoration: none;
+}
+a.comment-reply-link:hover, 
+a.comment-reply-link:focus, 
+a.comment-reply-link:active  {
+	background: #f00;
+	color: #fff;
+}
+a.comment-reply-link > span  {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+}
+.commentlist > li.bypostauthor  {
+}
+.commentlist > li.bypostauthor .comment-meta  {
+	color: #575757;
+}
+.commentlist > li.bypostauthor .comment-meta a:focus, 
+.commentlist > li.bypostauthor .comment-meta a:active, 
+.commentlist > li.bypostauthor .comment-meta a:hover  {
+}
+.commentlist > li.bypostauthor:before  {
+	content:"Author comment";
+	position:absolute;
+	top:0;
+	left:1%;
+	color:#fff;
+	background:#900;
+	padding:5px;
+	font-size:1.1em;
+}
+.commentlist .children > li.bypostauthor  {
+	background: #ddd;
+	border-color: #d3d3d3;
+}
+.page-template-sidebar-page-php .commentlist > li.comment, 
+.page-template-sidebar-page-php.commentlist .pingback  {
+	margin-left: 102px;
+	width: auto;
+}
+.page-template-sidebar-page-php #respond  {
+	width: auto;
+}
+#respond  {
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding: 1.625em;
+	position: relative;
+	width: 90%;
+}
+#respond input[type="text"], 
+#respond textarea  {
+	background: #fff;
+	border: 4px solid #eee;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	-moz-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	position: relative;
+	padding: 10px;
+	text-indent: 80px;
+}
+#respond .comment-form-author, 
+#respond .comment-form-email, 
+#respond .comment-form-url, 
+#respond .comment-form-comment  {
+	position: relative;
+}
+#respond .comment-form-author label, 
+#respond .comment-form-email label, 
+#respond .comment-form-url label, 
+#respond .comment-form-comment label  {
+	background: #eee;
+	-webkit-box-shadow: 1px 2px 2px rgba(204, 204, 204, 0.8);
+	-moz-box-shadow: 1px 2px 2px rgba(204, 204, 204, 0.8);
+	box-shadow: 1px 2px 2px rgba(204, 204, 204, 0.8);
+	color: #555;
+	display: inline-block;
+	font-size: 13px;
+	left: 4px;
+	min-width: 60px;
+	padding: 4px 10px;
+	position: relative;
+	top: 40px;
+	z-index: 1;
+}
+#respond input[type="text"]:focus, 
+#respond textarea:focus  {
+	text-indent: 0;
+	z-index: 1;
+}
+#respond textarea  {
+	resize: vertical;
+	width: 95%;
+}
+#respond .comment-form-author .required, 
+#respond .comment-form-email .required  {
+	color: #bd3500;
+	font-size: 22px;
+	font-weight: bold;
+	left: 75%;
+	position: absolute;
+	top: 45px;
+	z-index: 1;
+}
+#respond .comment-notes, 
+#respond .logged-in-as  {
+	font-size: 13px;
+}
+#respond p  {
+	margin: 10px 0;
+}
+#respond .form-submit  {
+	float: right;
+	margin: -20px 0 10px;
+}
+#respond input#submit  {
+	background: #222;
+	border: none;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	color: #eee;
+	cursor: pointer;
+	font-size: 15px;
+	margin:20px 0;
+	padding: 5px 22px 5px 22px;
+	float:left;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#respond input#submit:active  {
+	background: #1982d1;
+	color: #bfddf3;
+}
+#respond #cancel-comment-reply-link  {
+	color: #666;
+	margin-left: 10px;
+	text-decoration: none;
+}
+#respond .logged-in-as a:hover, 
+#respond #cancel-comment-reply-link:hover  {
+	text-decoration: underline;
+}
+#reply-title  {
+	color: #373737;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+}
+#cancel-comment-reply-link  {
+	color: #888;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 2.2em;
+	letter-spacing: 0.05em;
+	position: absolute;
+	right: 1.625em;
+	text-decoration: none;
+	text-transform: uppercase;
+	top: 1.1em;
+}
+#cancel-comment-reply-link:focus, 
+#cancel-comment-reply-link:active, 
+#cancel-comment-reply-link:hover  {
+	color: #ff4b33;
+}
+#respond label  {
+	line-height: 2.2em;
+}
+#respond input[type=text]  {
+	display: block;
+	height: 24px;
+	width: 75%;
+}
+#respond p  {
+	font-size: 12px;
+}
+.comment-content {
+	padding-left:6px;
+	padding-right:8px;
+	padding-top:15px;
+}
+p.comment-form-comment  {
+	margin: 0;
+}
+.form-allowed-tags  {
+	display: none;
+}
+.says {
+	margin-left:5px;
+}
+	
+/* ========================================================
+ Navigations page settings
+============================================================ */
+.nav-page {
+	padding-bottom:25px;
+	padding-top:22px;
+}
+.page-numbers li {
+	float:left;
+	display:inline;
+	list-style:none;
+	padding:4px 8px;
+	margin-left:2px;
+	line-height: 1em;
+	color: #444;
+	border:1px solid #444;
+}
+.page-numbers {
+	padding: 6px 8px;
+}
+.navi-page .current {
+	 color: #aaa;
+}
+
+/* ========================================================
+ Responsive settings Media query
+============================================================ */
+@media screen and (max-width:820px)  {
+.one,  
+.two,  
+.thre,  
+.four,  
+.five,  
+.six,  
+.seven,  
+.eight,  
+.nine,  
+.ten,  
+.eleven,  
+.twelve, 
+.row .excerpt, 
+.row .side-right
+ {
+	width:97.91666666666666%;
+}
+}
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.clearfix {
+	clear:both;
+	display:block;
+	overflow:hidden;
+}
+@media screen and (max-width:420px) 
+ {
+#content-slider,  
+#slider, 
+#slide_panel,  
+.searching {
+	display:none;
+}
+h1.site-title {
+	font-size:1.5em;
+}
+}
+
+/* ========================================================
+ Style For Internet Explorer
+============================================================ */
+.side-right  {
+	*width:52%;
+}
+.six {
+	*width:42.91666666666667%;
+}
+.excerpt  {
+	*width:44%;
+}
+.searching {
+	*width:90%;
+}
+
+/* ========================================================
+ Finish,  
+============================================================ */
+.credit {
+	background: #e5e5e5;
+}
